@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43d0a2a67367ee3800ff54783ec4fc0e5272853b9adb1dcd9f4f3fc8b898e546
-size 48
+✅ requirements.txt:
+
+nginx
+Copiar
+Editar

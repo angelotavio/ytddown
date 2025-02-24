@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02f17ac5731ab7f6d51dd3f9f7d6e50c589489028eccde448e21b8471925a014
-size 337
+from flask import Flask, render_template, request
+import os
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template("index.html")
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
